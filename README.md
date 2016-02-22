@@ -16,7 +16,9 @@ Directories for your downloads and torrent files are mounted as volumes to the c
 make build
 ```
 
-#### Run the Docker Image default configuration exposes port 8081
+#### Run the Docker Image 
+
+Default configuration exposes port 8081
 ```bash
 make run
 ```
