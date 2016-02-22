@@ -24,6 +24,15 @@ Default configuration exposes port 8081
 make run
 ```
 
+#### Docker Hub
+
+Download the image on Docker Hub
+```bash
+docker run majormjr/docker-headphones
+
+
+
+
 ## License
 
 The MIT License (MIT)
