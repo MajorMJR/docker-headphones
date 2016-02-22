@@ -5,11 +5,12 @@ Docker container built with the Alpine Image to run a lightweight Headphones ser
 Image file is approximately 70MB when built.
 
 
-Directories for your downloads and torrent files are mounted as volumes to the container.  Headphones directory contains your headphones config files and logs
+Directories for your downloads and torrent files are mounted as volumes to the container.  Headphones directory contains your headphones config files and logs.  If using a torrent client use the /torrents volume with your BitTorrent clients watch directory.
 
-* /downloads 
+Container directories:
+* /downloads
 * /headphones
-* /music
+* /torrents
 
 #### Build the Docker Image
 ```bash
